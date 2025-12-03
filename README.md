@@ -40,32 +40,25 @@ A professional C++ console implementation of a customizable math quiz game with 
 
 This project was developed as part of the 05 - Algorithms & Problem-Solving Level 2 Course by Dr. Mohammed Abu-Hadhoud/Programming Advices. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
 
-Detailed game statistics and question history
 
-Multiple difficulty levels: Easy, Medium, Hard, and Mix modes
+## Features
 
-Multiple operation types: Addition, Subtraction, Multiplication, Division, and Mix operations
-
-Multiple rounds: Choose between 1-10 questions per session
-
-Colorful console interface with visual feedback
-
-Detailed game statistics and question history
-
-Play-again functionality for continuous gameplay
-
-Real-time results with winner highlighting
-
-Sound effects for incorrect answers
-
-Input validation for robust user experience
+- **Multiple difficulty levels**: Easy, Medium, Hard, and Mix modes
+- **Multiple operation types**: Addition, Subtraction, Multiplication, Division, and Mix  operations
+- **Multiple rounds**: Choose between 1-10 questions per session
+- **Colorful console interface** with visual feedback
+- **Detailed game statistics** and question history
+- **Play-again functionality** for continuous gameplay
+- **Real-time results** with winner highlighting
+- **Sound effects** for incorrect answers
+- **Input validation** for robust user experience
 
 ## Quick Start
 
-### Prerequisites
 
-C++ compiler (GCC, Clang, or MSVC)
-Windows OS (for color support)
+### Prerequisites
+- C++ compiler (GCC, Clang, or MSVC)
+- Windows OS (for color support)
 
 ### Compile & Run
 ```bash
@@ -75,20 +68,15 @@ g++ -o MathGame main.cpp
 # Run the game
 ./MathGame
 ```
+
 ### Using Visual Studio
 
 Open the project folder in Visual Studio
-
 Create a new Empty C++ Project
-
 Add main.cpp to your project
-
 Build the solution (Ctrl+Shift+B)
-
 Run the program (F5)
 
-How to Play
-Run the executable
 
 ## How to Play
 
@@ -118,13 +106,16 @@ Type 4 for Division (÷)
 
 Type 5 for Mix (random operations)
 
+
 For each question, enter your answer
 
 View question results with color-coded feedback (Green=Correct, Red=Incorrect, with correct answer shown)
 
 See final statistics and pass/fail results after all questions
 
-Type 2 for Subtraction (-)
+Choose to play again by typing 'Y' or exit by typing 'N'
+
+
 
 ## Game Rules:
 
@@ -155,54 +146,39 @@ Pass: Number of right answers ≥ Number of wrong answers
 
 Fail: Number of wrong answers > Number of right answers
 
-View question results with color-coded feedback (Green=Correct, Red=Incorrect, with correct answer shown)
 
-See final statistics and pass/fail results after all questions
+## Project Structure
 
-Choose to play again by typing 'Y' or exit by typing 'N'
-
-Game Rules:
-Difficulty Levels:
-Easy: Numbers range from 1 to 10
-
-Medium: Numbers range from 10 to 50
-
-Hard: Numbers range from 50 to 100
-
-Mix: Randomly selects from all difficulty levels
-
-Operation Types:
-Addition (+): Number1 + Number2
-
-Subtraction (-): Number1 - Number2
-
-Multiplication (×): Number1 × Number2
-
-Division (÷): Number1 ÷ Number2 (integer division)
-
-Mix: Randomly selects from all operation types
-
-Pass/Fail Criteria:
-Pass: Number of right answers ≥ Number of wrong answers
-
-Fail: Number of wrong answers > Number of right answers
-
-Project Structure
-text
 MathGame/
+
 ├── screenshots/
+
 │   ├── 1-game-start.PNG
-│   ├── 2-round-input.PNG
-│   ├── 3-round-results.PNG
-│   ├── 4-multiple-questions.PNG
-│   ├── 5-final-results.PNG
-│   ├── 6-correct-answers.PNG
-│   └── 7-quiz-summary.PNG
+
+│   ├── 2-quiz-configuration.PNG
+
+│   ├── 3-correct-answer-easy.PNG
+
+│   ├── 4-wrong-answer-medium.PNG
+
+│   ├── 5-multiple-rounds-mix.PNG
+
+│   ├── 6-correct-answer-division.PNG
+
+│   ├── 7-final-results-pass.PNG
+
+│   └── 8-final-results-fail.PNG
+
 ├── main.cpp                 # Main game implementation
+
 ├── README.md                # Project documentation
+
 ├── LICENSE                  # MIT License
+
 └── .gitignore              # Git ignore rules
-Code Architecture
+
+## Code Architecture
+
 The project uses clean, modular C++ with:
 
 Enum-based states for question levels and operation types
@@ -215,8 +191,7 @@ Color-coded UI for enhanced learning experience
 
 Input validation for error-free interaction
 
-Key Functions:
-PlayMathGame() - Manages the main game flow
+### Key Functions:
 
 PlayMathGame() - Manages the main game flow
 
@@ -230,9 +205,8 @@ SimpleCalculator() - Performs arithmetic operations
 
 SetScreenColor() - Changes console color based on answer correctness
 
-SetScreenColor() - Changes console color based on answer correctness
+## UI/UX Features
 
-UI/UX Features
 Clean console interface with proper formatting and tabs
 
 Dynamic color changes based on answer correctness:
@@ -259,9 +233,8 @@ Visual separation between different sections (configuration, questions, results)
 
 Question counter showing progress (e.g., "Question [3/5]")
 
-Question counter showing progress (e.g., "Question [3/5]")
+## Contributing
 
-Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check issues page if you want to contribute.
 
 Fork the repository
@@ -274,15 +247,15 @@ Push to the branch (git push origin feature/improvement)
 
 Open a Pull Request
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Author
-Your Name
+## Author
+Mahmoud Amin
+GitHub: @Mahmoud-Amin-de
 
-GitHub: @YOUR_USERNAME
-
-Attribution
-*Game concept inspired by "Algorithms & Problem-Solving Level 2 Course" by Dr. Mohammed Abu-Hadhoud/Programming Advices. Code implementation, structure, and additional features developed from scratch by Your Name.*
+## Attribution
+*Game concept inspired by "Algorithms & Problem-Solving Level 2 Course" by Dr. Mohammed Abu-Hadhoud/Programming Advices. Code implementation, structure, and additional features developed from scratch by Mahmoud Amin.*
 
 This project demonstrates fundamental C++ concepts including functions, data structures, control flow, and user interaction handling.
+
