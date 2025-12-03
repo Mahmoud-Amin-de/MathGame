@@ -1,10 +1,6 @@
-Math Quiz Game 🧮
-A professional C++ console implementation of a customizable math quiz game with multiple difficulty levels and operation types.
+# Math Quiz Game 🧮
 
-🎮 Gameplay Screenshots
-Game Configuration
-https://./screenshots/1-game-start.PNG
-Starting the game - selecting number of questions and difficulty level
+A professional C++ console implementation of a customizable math quiz game with multiple difficulty levels and operation types.
 
 Player Input
 https://./screenshots/2-round-input.PNG
@@ -38,6 +34,16 @@ Multiple difficulty levels: Easy, Medium, Hard, and Mix modes
 
 Multiple operation types: Addition, Subtraction, Multiplication, Division, and Mix operations
 
+##  Project Context
+
+This project was developed as part of the 05 - Algorithms & Problem-Solving Level 2 Course by Dr. Mohammed Abu-Hadhoud/Programming Advices. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
+
+Detailed game statistics and question history
+
+Multiple difficulty levels: Easy, Medium, Hard, and Mix modes
+
+Multiple operation types: Addition, Subtraction, Multiplication, Division, and Mix operations
+
 Multiple rounds: Choose between 1-10 questions per session
 
 Colorful console interface with visual feedback
@@ -52,20 +58,23 @@ Sound effects for incorrect answers
 
 Input validation for robust user experience
 
-Quick Start
-Prerequisites
-C++ compiler (GCC, Clang, or MSVC)
+## Quick Start
 
+### Prerequisites
+
+C++ compiler (GCC, Clang, or MSVC)
 Windows OS (for color support)
 
-Compile & Run
-bash
+### Compile & Run
+```bash
 # Compile the project
 g++ -o MathGame main.cpp
 
 # Run the game
 ./MathGame
-Using Visual Studio
+```
+### Using Visual Studio
+
 Open the project folder in Visual Studio
 
 Create a new Empty C++ Project
@@ -79,9 +88,13 @@ Run the program (F5)
 How to Play
 Run the executable
 
+## How to Play
+
+Run the executable
+
 Enter number of questions when prompted (choose between 1-10)
 
-Select difficulty level:
+### Select difficulty level:
 
 Type 1 for Easy (numbers 1-10)
 
@@ -91,7 +104,7 @@ Type 3 for Hard (numbers 50-100)
 
 Type 4 for Mix (random difficulty)
 
-Choose operation type:
+### Choose operation type:
 
 Type 1 for Addition (+)
 
@@ -104,6 +117,41 @@ Type 4 for Division (÷)
 Type 5 for Mix (random operations)
 
 For each question, enter your answer
+
+View question results with color-coded feedback (Green=Correct, Red=Incorrect, with correct answer shown)
+
+See final statistics and pass/fail results after all questions
+
+Type 2 for Subtraction (-)
+
+## Game Rules:
+
+### Difficulty Levels:
+
+Easy: Numbers range from 1 to 10
+
+Medium: Numbers range from 10 to 50
+
+Hard: Numbers range from 50 to 100
+
+Mix: Randomly selects from all difficulty levels
+
+### Operation Types:
+
+Addition (+): Number1 + Number2
+
+Subtraction (-): Number1 - Number2
+
+Multiplication (×): Number1 × Number2
+
+Division (÷): Number1 ÷ Number2 (integer division)
+
+Mix: Randomly selects from all operation types
+
+### Pass/Fail Criteria:
+Pass: Number of right answers ≥ Number of wrong answers
+
+Fail: Number of wrong answers > Number of right answers
 
 View question results with color-coded feedback (Green=Correct, Red=Incorrect, with correct answer shown)
 
@@ -168,6 +216,8 @@ Input validation for error-free interaction
 Key Functions:
 PlayMathGame() - Manages the main game flow
 
+PlayMathGame() - Manages the main game flow
+
 GenerateQuestion() - Creates random math problems
 
 AskAndCorrectQuestionListAnswers() - Handles answer processing
@@ -175,6 +225,8 @@ AskAndCorrectQuestionListAnswers() - Handles answer processing
 PrintQuizzResults() - Displays comprehensive statistics
 
 SimpleCalculator() - Performs arithmetic operations
+
+SetScreenColor() - Changes console color based on answer correctness
 
 SetScreenColor() - Changes console color based on answer correctness
 
@@ -202,6 +254,8 @@ Operation type used
 Final pass/fail status
 
 Visual separation between different sections (configuration, questions, results)
+
+Question counter showing progress (e.g., "Question [3/5]")
 
 Question counter showing progress (e.g., "Question [3/5]")
 
