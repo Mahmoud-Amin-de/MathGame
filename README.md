@@ -1,6 +1,7 @@
-# Rock Paper Scissors Game 🎮
+# Math Quiz Game 🧮
 
-A professional C++ console implementation of the classic Rock Paper Scissors game with colorful UI and multiple rounds support.
+A professional C++ console implementation of a customizable math quiz game with multiple difficulty levels and operation types.
+
 
 ## 🎮 Gameplay Screenshots
 
@@ -33,38 +34,52 @@ A professional C++ console implementation of the classic Rock Paper Scissors gam
 ![Clean Results](./screenshots/7-clean-results.PNG)
 *Well-formatted game summary screen*
 
-## Project Context
+##  Project Context
 
-This project was developed as part of the **05 - Algorithms & Problem-Solving Level 2 Course** by **Dr. Mohammed Abu-Hadhoud/Programming Advices**. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
+This project was developed as part of the 05 - Algorithms & Problem-Solving Level 2 Course by Dr. Mohammed Abu-Hadhoud/Programming Advices. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
 
 ## Features
 
-- **Classic Rock Paper Scissors** gameplay with proper rules
-- **Multiple rounds** (1-10) per game session
-- **Colorful console interface** with visual feedback
-- **Detailed game statistics** and round history
-- **Play-again functionality** for continuous gameplay
-- **Real-time results** with winner highlighting
-- **Sound effects** for computer wins
-- **Input validation** for robust user experience
+Multiple difficulty levels: Easy, Medium, Hard, and Mix modes
+
+Multiple operation types: Addition, Subtraction, Multiplication, Division, and Mix operations
+
+Multiple rounds: Choose between 1-10 questions per session
+
+Colorful console interface with visual feedback
+
+Detailed game statistics and question history
+
+Play-again functionality for continuous gameplay
+
+Real-time results with winner highlighting
+
+Sound effects for incorrect answers
+
+Input validation for robust user experience
 
 ## Quick Start
 
 ### Prerequisites
-- C++ compiler (GCC, Clang, or MSVC)
-- Windows OS (for color support)
+
+C++ compiler (GCC, Clang, or MSVC)
+Windows OS (for color support)
 
 ### Compile & Run
 ```bash
 # Compile the project
-g++ -o game main.cpp
+g++ -o MathGame main.cpp
 
 # Run the game
-./game
+./MathGame
 ```
 ### Using Visual Studio
 
-Open RockPaperScissor.sln in Visual Studio
+Open the project folder in Visual Studio
+
+Create a new Empty C++ Project
+
+Add main.cpp to your project
 
 Build the solution (Ctrl+Shift+B)
 
@@ -72,33 +87,69 @@ Run the program (F5)
 
 
 ## How to Play
-Run the executable by typing ./game in your terminal
 
-Enter number of rounds when prompted (choose between 1-10)
+Run the executable
 
-For each round, make your choice:
+Enter number of questions when prompted (choose between 1-10)
 
-Type 1 for Rock ✊
+Select difficulty level:
 
-Type 2 for Paper ✋
+Type 1 for Easy (numbers 1-10)
 
-Type 3 for Scissors ✌️
+Type 2 for Medium (numbers 10-50)
 
-View round results with color-coded winners (Green=Player, Red=Computer, Yellow=Draw)
+Type 3 for Hard (numbers 50-100)
 
-See final statistics and overall winner after all rounds
+Type 4 for Mix (random difficulty)
+
+Choose operation type:
+
+Type 1 for Addition (+)
+
+Type 2 for Subtraction (-)
+
+Type 3 for Multiplication (×)
+
+Type 4 for Division (÷)
+
+Type 5 for Mix (random operations)
+
+For each question, enter your answer
+
+View question results with color-coded feedback (Green=Correct, Red=Incorrect, with correct answer shown)
+
+See final statistics and pass/fail results after all questions
 
 Choose to play again by typing 'Y' or exit by typing 'N'
 
 ## Game Rules:
 
-Rock crushes Scissors ✊ > ✌️
+Difficulty Levels:
 
-Scissors cuts Paper ✌️ > ✋
+Easy: Numbers range from 1 to 10
 
-Paper covers Rock ✋ > ✊
+Medium: Numbers range from 10 to 50
 
-Same choice results in a draw
+Hard: Numbers range from 50 to 100
+
+Mix: Randomly selects from all difficulty levels
+
+Operation Types:
+
+Addition (+): Number1 + Number2
+
+Subtraction (-): Number1 - Number2
+
+Multiplication (×): Number1 × Number2
+
+Division (÷): Number1 ÷ Number2 (integer division)
+
+Mix: Randomly selects from all operation types
+
+Pass/Fail Criteria:
+Pass: Number of right answers ≥ Number of wrong answers
+
+Fail: Number of wrong answers > Number of right answers
 
 ## Project Structure:
 
@@ -137,43 +188,57 @@ RockPaperScissor/
 
 The project uses clean, modular C++ with:
 
-Enum-based states for game choices and winners
+Enum-based states for question levels and operation types
 
-Struct-based data management for game information
+Struct-based data management for questions and quiz sessions
 
-Randomized computer AI for fair gameplay
+Randomized question generation based on selected parameters
 
-Color-coded UI for enhanced user experience
+Color-coded UI for enhanced learning experience
 
 Input validation for error-free interaction
 
 ### Key Functions:
 
-PlayGame() - Manages the main game flow
+PlayMathGame() - Manages the main game flow
 
-WhoWonTheRound() - Implements game rules logic
+GenerateQuestion() - Creates random math problems
 
-PrintRoundResults() - Displays colorful round outcomes
+AskAndCorrectQuestionListAnswers() - Handles answer processing
 
-ShowFinalGameResults() - Shows comprehensive statistics
+PrintQuizzResults() - Displays comprehensive statistics
+
+SimpleCalculator() - Performs arithmetic operations
+
+SetScreenColor() - Changes console color based on answer correctness
 
 ## UI/UX Features:
 
 Clean console interface with proper formatting and tabs
 
-Dynamic color changes based on game outcome:
+Dynamic color changes based on answer correctness:
 
-Green: Player wins
+Green: Correct answers
 
-Red: Computer wins (with beep sound)
+Red: Incorrect answers (with beep sound and correct answer shown)
 
-Yellow: Draw rounds
+Detailed question information showing both numbers and operation
 
-Detailed round information showing both player and computer choices
+Comprehensive game statistics including:
 
-Comprehensive game statistics including wins, draws, and final winner
+Total questions answered
 
-Visual separation between different rounds and final results
+Right vs. wrong answers count
+
+Difficulty level used
+
+Operation type used
+
+Final pass/fail status
+
+Visual separation between different sections (configuration, questions, results)
+
+Question counter showing progress (e.g., "Question [3/5]")
 
 ## Contributing:
 
