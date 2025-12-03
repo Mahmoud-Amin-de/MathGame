@@ -2,7 +2,6 @@
 
 A professional C++ console implementation of a customizable math quiz game with multiple difficulty levels and operation types.
 
-
 ## 🎮 Gameplay Screenshots
 
 ### Game Start
@@ -92,7 +91,7 @@ Run the executable
 
 Enter number of questions when prompted (choose between 1-10)
 
-Select difficulty level:
+### Select difficulty level:
 
 Type 1 for Easy (numbers 1-10)
 
@@ -102,7 +101,7 @@ Type 3 for Hard (numbers 50-100)
 
 Type 4 for Mix (random difficulty)
 
-Choose operation type:
+### Choose operation type:
 
 Type 1 for Addition (+)
 
@@ -124,7 +123,7 @@ Choose to play again by typing 'Y' or exit by typing 'N'
 
 ## Game Rules:
 
-Difficulty Levels:
+### Difficulty Levels:
 
 Easy: Numbers range from 1 to 10
 
@@ -134,7 +133,7 @@ Hard: Numbers range from 50 to 100
 
 Mix: Randomly selects from all difficulty levels
 
-Operation Types:
+### Operation Types:
 
 Addition (+): Number1 + Number2
 
@@ -146,7 +145,7 @@ Division (÷): Number1 ÷ Number2 (integer division)
 
 Mix: Randomly selects from all operation types
 
-Pass/Fail Criteria:
+### Pass/Fail Criteria:
 Pass: Number of right answers ≥ Number of wrong answers
 
 Fail: Number of wrong answers > Number of right answers
