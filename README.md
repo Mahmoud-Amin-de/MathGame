@@ -6,44 +6,35 @@ A professional C++ console implementation of a customizable math quiz game with 
 
 ### Game Start
 ![Game Start](./screenshots/1-game-start.PNG)
-*Starting the game - selecting number of questions*
+*Starting the game - entering the number of questions for the quiz*
 
 ### Quiz Configuration  
 ![Quiz Configuration](./screenshots/2-quiz-configuration.PNG)
-*Configuring the quiz - selecting difficulty level and operation type*
+*Configuring quiz settings - selecting difficulty level and operation type*
 
-### Easy Addition Question
-![Easy Addition Question](./screenshots/3-easy-addition-question.PNG)
-*Answering an easy addition question (2+8)*
+### Correct Answer (Easy)
+![Correct Answer Easy](./screenshots/3-correct-answer-easy.PNG)
+*Correct answer in easy mode - green feedback for right answer*
 
-### Quiz Results
-![Quiz Results](./screenshots/4-quiz-results.PNG)
-*Final results showing pass/fail status with statistics*
+### Wrong Answer (Medium)
+![Wrong Answer Medium](./screenshots/4-wrong-answer-medium.PNG)
+*Wrong answer in medium mode - red feedback with correct answer shown*
 
-### Medium Subtraction Question
-![Medium Subtraction Question](./screenshots/5-medium-subtraction-question.PNG)
-*A medium difficulty subtraction question (444-30)*
+### Multiple Rounds (Mix)
+![Multiple Rounds Mix](./screenshots/5-multiple-rounds-mix.PNG)
+*Multiple rounds in mix mode - progression through different questions*
 
-### Medium Subtraction Results
-![Medium Subtraction Results](./screenshots/6-medium-subtraction-results.PNG)
-*Results from a medium subtraction quiz*
+### Correct Answer (Division)
+![Correct Answer Division](./screenshots/6-correct-answer-division.PNG)
+*Correct answer in division - integer division with proper result*
 
-### Mix Quiz Start
-![Mix Quiz Start](./screenshots/7-mix-quiz-start.PNG)
-*Starting a mix difficulty quiz with subtraction*
+### Final Results (Pass)
+![Final Results Pass](./screenshots/7-final-results-pass.PNG)
+*Passing final results - comprehensive statistics with pass status*
 
-### Mix Quiz Progress
-![Mix Quiz Progress](./screenshots/8-mix-quiz-progress.PNG)
-*Progress in a mix quiz with division question*
-
-### Mix Quiz Results
-![Mix Quiz Results](./screenshots/9-mix-quiz-results.PNG)
-*Final results from a mix difficulty/operation quiz*
-
-### Fail Result
-![Fail Result](./screenshots/10-fail-result.PNG)
-*Quiz result showing a fail status*
-
+### Final Results (Fail)
+![Final Results Fail](./screenshots/8-final-results-fail.PNG)
+*Failing final results - statistics showing need for improvement*
 
 ##  Project Context
 
