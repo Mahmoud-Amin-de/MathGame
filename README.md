@@ -2,37 +2,48 @@
 
 A professional C++ console implementation of a customizable math quiz game with multiple difficulty levels and operation types.
 
-Player Input
-https://./screenshots/2-round-input.PNG
-Answering arithmetic questions during gameplay
+## 🎮 Gameplay Screenshots
 
-Question Results
-https://./screenshots/3-round-results.PNG
-Color-coded question feedback with correct/incorrect answers
+### Game Start
+![Game Start](./screenshots/1-game-start.PNG)
+*Starting the game - selecting number of questions*
 
-Multiple Questions
-https://./screenshots/4-multiple-questions.PNG
-Game progression through several math problems
+### Quiz Configuration  
+![Quiz Configuration](./screenshots/2-quiz-configuration.PNG)
+*Configuring the quiz - selecting difficulty level and operation type*
 
-Final Statistics
-https://./screenshots/5-final-results.PNG
-Comprehensive game statistics and pass/fail results
+### Easy Addition Question
+![Easy Addition Question](./screenshots/3-easy-addition-question.PNG)
+*Answering an easy addition question (2+8)*
 
-Correct Answers
-https://./screenshots/6-correct-answers.PNG
-Player answering questions correctly with green feedback
+### Quiz Results
+![Quiz Results](./screenshots/4-quiz-results.PNG)
+*Final results showing pass/fail status with statistics*
 
-Quiz Summary
-https://./screenshots/7-quiz-summary.PNG
-Well-formatted quiz summary screen
+### Medium Subtraction Question
+![Medium Subtraction Question](./screenshots/5-medium-subtraction-question.PNG)
+*A medium difficulty subtraction question (444-30)*
 
-Project Context
-This project was developed as part of the 05 - Algorithms & Problem-Solving Level 2 Course by Dr. Mohammed Abu-Hadhoud/Programming Advices. The game concept was provided as a course exercise, but the entire code implementation, structure, and additional features were developed from scratch by me.
+### Medium Subtraction Results
+![Medium Subtraction Results](./screenshots/6-medium-subtraction-results.PNG)
+*Results from a medium subtraction quiz*
 
-Features
-Multiple difficulty levels: Easy, Medium, Hard, and Mix modes
+### Mix Quiz Start
+![Mix Quiz Start](./screenshots/7-mix-quiz-start.PNG)
+*Starting a mix difficulty quiz with subtraction*
 
-Multiple operation types: Addition, Subtraction, Multiplication, Division, and Mix operations
+### Mix Quiz Progress
+![Mix Quiz Progress](./screenshots/8-mix-quiz-progress.PNG)
+*Progress in a mix quiz with division question*
+
+### Mix Quiz Results
+![Mix Quiz Results](./screenshots/9-mix-quiz-results.PNG)
+*Final results from a mix difficulty/operation quiz*
+
+### Fail Result
+![Fail Result](./screenshots/10-fail-result.PNG)
+*Quiz result showing a fail status*
+
 
 ##  Project Context
 
